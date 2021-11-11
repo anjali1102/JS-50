@@ -1,0 +1,11 @@
+function randomNumberGeneratorInRange(rangeStart, rangeEnd) {
+	// write your solution here
+  min = Math.ceil(rangeStart);
+  max = Math.floor(rangeEnd);
+  return Math.floor(Math.random() * (rangeEnd- rangeStart + 1) + rangeStart); //The maximum is inclusive and the minimum is inclusive
+
+	return
+}
+
+console.log(`My random number: ${randomNumberGeneratorInRange(5, 100)}`)
+
